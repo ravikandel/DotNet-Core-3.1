@@ -1,0 +1,12 @@
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Repository\bin\Debug\netstandard2.0\DemoApp.Repository.deps.json
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Repository\bin\Debug\netstandard2.0\DemoApp.Repository.dll
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Repository\bin\Debug\netstandard2.0\DemoApp.Repository.pdb
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Repository\bin\Debug\netstandard2.0\DemoApp.Common.dll
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Repository\bin\Debug\netstandard2.0\DemoApp.Common.pdb
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Repository\obj\Debug\netstandard2.0\DemoApp.Repository.csprojAssemblyReference.cache
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Repository\obj\Debug\netstandard2.0\DemoApp.Repository.AssemblyInfoInputs.cache
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Repository\obj\Debug\netstandard2.0\DemoApp.Repository.AssemblyInfo.cs
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Repository\obj\Debug\netstandard2.0\DemoApp.Repository.csproj.CopyComplete
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Repository\obj\Debug\netstandard2.0\DemoApp.Repository.dll
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Repository\obj\Debug\netstandard2.0\DemoApp.Repository.pdb
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Repository\obj\Debug\netstandard2.0\DemoApp.Repository.csproj.CoreCompileInputs.cache

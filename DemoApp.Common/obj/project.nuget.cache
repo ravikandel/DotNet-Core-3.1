@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "BxOeOaKESTW6Sb3YW4RZmEu2IceoigTstEYb8maXMOz7+OWVvh6yNhyeUnEP0CfVsZK+jWq4PZby4RNExUCjZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ravi Kandel\\source\\repos\\DemoApp\\DemoApp.Common\\DemoApp.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ravi Kandel\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Ravi Kandel\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Ravi Kandel\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

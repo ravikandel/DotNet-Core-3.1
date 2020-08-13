@@ -1,0 +1,56 @@
+﻿@model DemoApp.Web.Models.ProductViewModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <hr />
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label asp-for="ProductCode" class="control-label"></label>
+            <input asp-for="ProductCode" readonly="@(true)" class="form-control" />
+        </div>
+        <div class="form-group col-md-6">
+            <label asp-for="ProductName" class="control-label"></label>
+            <input asp-for="ProductName" readonly="@(true)" class="form-control" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="Manufacturer" class="control-label"></label>
+        <input asp-for="Manufacturer" readonly="@(true)" class="form-control" />
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <label asp-for="Quantity" class="control-label"></label>
+            <input asp-for="Quantity" readonly="@(true)" class="form-control" />
+        </div>
+        <div class="form-group col-md-4">
+            <label asp-for="Rate" class="control-label"></label>
+            <input asp-for="Rate" readonly="@(true)" class="form-control" />
+        </div>
+        <div class="form-group col-md-4">
+            <label asp-for="TotalAmount" class="control-label"></label>
+            <input asp-for="TotalAmount" readonly="@(true)" class="form-control" />
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label asp-for="CreatedOn" class="control-label"></label>
+            <input asp-for="CreatedOn" readonly="@(true)" class="form-control" />
+        </div>
+        <div class="form-group col-md-6">
+            <label asp-for="LastModifiedOn" class="control-label"></label>
+            <input asp-for="LastModifiedOn" readonly="@(true)" class="form-control" />
+        </div>
+    </div>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="PId" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

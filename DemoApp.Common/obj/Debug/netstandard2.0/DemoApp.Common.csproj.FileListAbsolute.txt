@@ -1,0 +1,9 @@
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Common\bin\Debug\netstandard2.0\DemoApp.Common.deps.json
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Common\bin\Debug\netstandard2.0\DemoApp.Common.dll
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Common\bin\Debug\netstandard2.0\DemoApp.Common.pdb
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Common\obj\Debug\netstandard2.0\DemoApp.Common.AssemblyInfoInputs.cache
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Common\obj\Debug\netstandard2.0\DemoApp.Common.AssemblyInfo.cs
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Common\obj\Debug\netstandard2.0\DemoApp.Common.dll
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Common\obj\Debug\netstandard2.0\DemoApp.Common.pdb
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Common\obj\Debug\netstandard2.0\DemoApp.Common.csproj.CoreCompileInputs.cache
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Common\obj\Debug\netstandard2.0\DemoApp.Common.csprojAssemblyReference.cache

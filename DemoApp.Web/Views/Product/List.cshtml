@@ -1,0 +1,100 @@
+﻿@model IEnumerable<DemoApp.Web.Models.ProductViewModel>
+
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>Jquery Data Table List</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Create New</a>
+    <a asp-action="Index"> Back to List</a>
+</p>
+<table id="tblCustomers" class="table">
+    <thead>
+        <tr>
+
+            <th>
+                @Html.DisplayNameFor(model => model.ProductCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Manufacturer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalAmount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedOn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastModifiedOn)
+            </th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+
+@section Scripts
+{
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $.ajax({
+                type: "GET",
+                url: "/api/MyProduct",
+                data: '{}',
+                headers: { 'ApiKey': 'WMw0R9AO2A4zLOoWsPcOHg==' },
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: OnSuccess,
+                failure: function (response) {
+                    alert(response);
+                },
+                error: function (response) {
+                    alert(response);
+                }
+            });
+        });
+
+        function OnSuccess(response) {
+            debugger;
+
+            $("#tblCustomers tbody tr").remove();
+            var items = '';
+            $.each(response.productViewModelList, function (i, item) {
+                var rows = "<tr>"
+                    + "<td>" + item.productCode + "</td>"
+                    + "<td>" + item.productName + "</td>"
+                    + "<td>" + item.manufacturer + "</td>"
+                    + "<td>" + item.quantity + "</td>"
+                    + "<td>" + item.rate + "</td>"
+                    + "<td>" + item.totalAmount + "</td>"
+                    + "<td>" + item.createdOn + "</td>"
+                    + "<td>" + item.lastModifiedOn + "</td>"
+                    + "<td><a class=\"btn btn-sm btn-primary\" href=\"Edit/" + item.pId + "\"> <i class=\"fa fa-pencil\"></i></a> "
+                    + "<a class=\"btn btn-sm btn-info\" href=\"Details/" + item.pId + "\"> <i class=\"fa fa-eye\"></i></a> "
+                    + "<a class=\"btn btn-sm btn-danger\" href=\"Delete/" + item.pId + "\"> <i class=\"fa fa-close\"></i></a></td></tr>";
+                $('#tblCustomers tbody').append(rows);
+            });
+
+            $("#tblCustomers").DataTable(
+                {
+                    bLengthChange: true,
+                    bFilter: true,
+                    bSort: true,
+                    bPaginate: true
+                });
+        };
+    </script>
+}  

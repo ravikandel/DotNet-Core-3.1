@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DemoApp.Web</name>
+    </assembly>
+    <members>
+        <member name="M:DemoApp.Web.Api.MyProductController.GetAll">
+            <summary>
+            Get all Products.
+            </summary>
+        </member>
+        <member name="M:DemoApp.Web.Api.MyProductController.Get(System.Int32)">
+            <summary>
+            Get a specific Product.
+            </summary>
+        </member>
+        <member name="M:DemoApp.Web.Api.MyProductController.Post(DemoApp.Web.Models.ProductViewModel)">
+            <summary>
+            Create a specific Product.
+            </summary>
+        </member>
+        <member name="M:DemoApp.Web.Api.MyProductController.Put(System.Int32,DemoApp.Web.Models.ProductViewModel)">
+            <summary>
+            Update a specific Product.
+            </summary>
+        </member>
+        <member name="M:DemoApp.Web.Api.MyProductController.Delete(System.Int32)">
+            <summary>
+            Deletes a specific Product.
+            </summary>
+        </member>
+    </members>
+</doc>

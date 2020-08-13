@@ -1,0 +1,14 @@
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Business\bin\Debug\netstandard2.0\DemoApp.Business.deps.json
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Business\bin\Debug\netstandard2.0\DemoApp.Business.dll
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Business\bin\Debug\netstandard2.0\DemoApp.Business.pdb
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Business\bin\Debug\netstandard2.0\DemoApp.Common.dll
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Business\bin\Debug\netstandard2.0\DemoApp.Repository.dll
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Business\bin\Debug\netstandard2.0\DemoApp.Common.pdb
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Business\bin\Debug\netstandard2.0\DemoApp.Repository.pdb
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Business\obj\Debug\netstandard2.0\DemoApp.Business.csprojAssemblyReference.cache
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Business\obj\Debug\netstandard2.0\DemoApp.Business.AssemblyInfoInputs.cache
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Business\obj\Debug\netstandard2.0\DemoApp.Business.AssemblyInfo.cs
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Business\obj\Debug\netstandard2.0\DemoApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Business\obj\Debug\netstandard2.0\DemoApp.Business.csproj.CopyComplete
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Business\obj\Debug\netstandard2.0\DemoApp.Business.dll
+C:\Users\Ravi Kandel\source\repos\DemoApp\DemoApp.Business\obj\Debug\netstandard2.0\DemoApp.Business.pdb
